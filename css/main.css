@@ -45,12 +45,14 @@ body{
 	margin: 0px 25px;
 	} 
  
-#nav ul li a.logo{
-	background-repeat: no-repeat;
-	display: block;
+/*#nav ul li a.logo{
 	padding: 0;
-	background-color: #fff;
-} 
+}*/
+
+#nav img{
+	margin-top: -120px;
+	
+}
 
 .clearfix{
 	*zoom: 1;
