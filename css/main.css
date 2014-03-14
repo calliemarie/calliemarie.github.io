@@ -249,3 +249,24 @@ h6{
 	margin: 26px;
 	margin-right: 100px;
 }
+/*--------------------------------------------login-----------------------------------------------------*/
+
+#wrapper{
+	width: 700px;
+	height: 445px;
+	margin: 195px;
+	padding: 5px;
+}
+
+#wrapper p{
+	font-size: 36px;
+	color: 663399;
+	text-align: center;
+
+}
+
+#wrapper form{
+	font-family: "Pacifico", cursive;
+	font-size: 48px;
+	text-align: center;
+}
