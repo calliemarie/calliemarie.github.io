@@ -10,28 +10,16 @@
 	<link href='http://fonts.googleapis.com/css?family=Rokkitt' rel='stylesheet' type='text/css'>
 </head>
 
-<body>
 <header>
 	<div id="chevron">
 	</div>
 	<nav>
 		<ul>
-			<li><a href="story.html">our story</a></li>
-			<li><a href="day.html">our day</a></li>
-			<li><a class="logo" href="index.html"><img src="img/logo.png" alt="Home"/></a></li>
-			<li><a href="guests.html">our guests</a></li>
-			<li><a href="login.html">login</a></li>
+			<li><a href="story.php">our story</a></li>
+			<li><a href="day.php">our day</a></li>
+			<li><a class="logo" href="index.php"><img src="img/logo.png" alt="Home"/></a></li>
+			<li><a href="guests.php">our guests</a></li>
+			<li><a href="login.php">login</a></li>
 		</ul>
 	</nav>
 </header>
-
-	<div id="wrapper">
-	<p>If you were issued a username and password please login here:</p>
-
-	
-	<form name="input" action="menu.html" method="get">
-		<input type="text" name="user">   username <br>
-		<input type="password" name="pwd">   password <br>
-		<input type="submit" value="submit" class="button">
-	</form>
-	</div>

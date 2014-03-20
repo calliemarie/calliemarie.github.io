@@ -1,30 +1,15 @@
-<!DOCTYPE html>
-<html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-	<title>callieandgrant.com</title>
-	<link rel="stylesheet" type="text/css" href="css/main.css">
-	<link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Oxygen:700,300' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Rokkitt' rel='stylesheet' type='text/css'>
-</head>
+<?php
 
-<body id="guests">
-<header>
-	<div id="chevron">
-	</div>
-	<nav>
-		<ul>
-			<li><a href="story.html">our story</a></li>
-			<li><a href="day.html">our day</a></li>
-			<li><a class="logo" href="index.html"><img src="img/logo.png" alt="Home"/></a></li>
-			<li><a href="guests.html">our guests</a></li>
-			<li><a href="login.html">login</a></li>
-		</ul>
-	</nav>
-</header>
+require_once "db.php";
+require_once "siteModel.php";
+require_once "siteView.php";
 
+$model = new siteModel(MY_DSN, MY_USER, MY_PASS);
+
+$view = new siteView();
+$view->showHeader();
+?>
+<div id="guests">
 	<div id="okc">
 		<h2>Oklahoma City</h2>
 		<p>Oklahoma City has grown considerably in the last 20 years.  There is so much to do around the metro area.</p> 
@@ -53,5 +38,5 @@ entertainment.  Bricktown also has a beautiful riverwalk to check out.  The wedd
 		<a class="reg" href="http://wwww.kohls.com"><img src="img/kohls.jpg" alt="Kohls" width="300" height="130"/></a>
 		<a class="reg" href="http://wwww.williams-sonoma.com"><img src="img/williamsonoma-1.jpg" alt="William Sonoma" width="355" height="130"/></a>
 	</div>
-	
+</div>	
 </body>

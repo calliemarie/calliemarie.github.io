@@ -1,29 +1,16 @@
-<!DOCTYPE html>
-<html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-	<title>callieandgrant.com</title>
-	<link rel="stylesheet" type="text/css" href="css/main.css">
-	<link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Oxygen:700,300' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Rokkitt' rel='stylesheet' type='text/css'>
-</head>
+<?php
 
-<body id="loggedin">
-<header>
-	<div id="chevron">
-	</div>
-	<nav>
-		<ul>
-			<li><a href="story.html">our story</a></li>
-			<li><a href="day.html">our day</a></li>
-			<li><a class="logo" href="index.html"><img src="img/logo.png" alt="Home"/></a></li>
-			<li><a href="guests.html">our guests</a></li>
-			<li><a href="login.html">login</a></li>
-		</ul>
-	</nav>
-</header>
+require_once "db.php";
+require_once "siteModel.php";
+require_once "siteView.php";
+
+$model = new siteModel(MY_DSN, MY_USER, MY_PASS);
+
+$view = new siteView();
+$view->showHeader();
+?>
+<div id="loggedin">
+
 	<div id="thanks">
 		<h2>Groomsmen</h2>
 		<h3>THANK YOU!</h3>
@@ -47,5 +34,5 @@
 		<img src="img/neworleans.jpg" alt="New Orleans" width="276" height="185"/>	
 	</div>
 	
-		
+</div>		
 </body>
