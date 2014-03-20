@@ -11,7 +11,7 @@ body{
     background-repeat: repeat-x;
 }
 /*----------------------------------NAVIGATION---------------------------------------------*/
-#nav ul { 
+nav ul { 
 	margin: 0px; 
 	padding: 7px; 
 	list-style-type: none; 
@@ -22,19 +22,19 @@ body{
 	border-color: #663399; 
 	
 	} 
-#nav ul:after{
+nav ul:after{
 	clear:both;
 	display: table;
 	content: "";
 }
  
-#nav ul li {  
+nav ul li {  
 	float: left;
 	display: inline; 
 	font-family: "Pacifico", cursive;
 	} 
  
-#nav ul li a { 
+nav ul li a { 
 	height: 60px;
 	text-decoration: none; 
 	padding: .2em 1em; 
@@ -45,11 +45,8 @@ body{
 	margin: 0px 25px;
 	} 
  
-/*#nav ul li a.logo{
-	padding: 0;
-}*/
 
-#nav img{
+nav img{
 	margin-top: -120px;
 	
 }
@@ -64,7 +61,7 @@ body{
 	display: table;
 }
  
-#nav ul li a:hover { 
+nav ul li a:hover { 
 	color: #60dfe50; 
 	background-color: #60dfe5; 
 	} 
@@ -151,7 +148,7 @@ img.second{
 	clear: right;
 }
 
-/*--------------------------------------------Our Story-----------------------------------------------------*/
+/*--------------------------------------------Our Day-----------------------------------------------------*/
 #ceremony{
 	width: 860px;
 	height: 370px;
@@ -188,6 +185,7 @@ img.second{
 #ceremony a{
 	color: #d4bbe2;
 	font-size: 18px;
+	width: 600px;
 
 }
 
@@ -251,6 +249,67 @@ h6{
 	margin: 26px;
 	margin-right: 100px;
 }
+/*--------------------------------------------our guests-----------------------------------------------------*/
+
+#guests h2{
+	font-size: 48px;
+}
+
+#guests img{
+	float: right;
+}
+
+#guests h5{
+	font-family: "Rokkitt", serif;
+	text-decoration: underline;
+	font-size: 24px;
+}
+
+#guests a{
+	font-style: none;
+	color: #663399;
+}
+
+#okc{
+	background-color: white;
+	width: 920px;
+	height: 258px;
+	margin: 55px;
+	padding: 25px;
+}
+
+#accomodations{
+	background-color: white;
+	width: 920px;
+	height: 258px;
+	margin: 55px;
+	padding: 25px;
+}
+
+#location1{
+	width: 415px;
+	clear: both;
+	margin: 0;
+}
+
+#location2{
+	width: 415px;
+	clear: both;
+	margin: 0;
+}
+
+#registries{
+	background-color: white;
+	width: 920px;
+	height: 258px;
+	margin: 55px;
+	padding: 25px;
+}
+
+
+
+
+
 /*--------------------------------------------login-----------------------------------------------------*/
 
 #wrapper{
@@ -291,4 +350,58 @@ h6{
     font-family: "Oxygen", sans-serif;
     font-size: 48px;
     color: #60dfe5;
+}
+
+/*--------------------------------------------menu-----------------------------------------------------*/
+
+#menu h1{
+	font-family: "Oxygen", sans-serif;
+	font-size: 72pt;
+	font-weight:normal;
+	float: left;
+
+}
+
+#menu h2{
+	font-family: "Pacifico", cursive;
+	font-size: 72pt;
+	color: #52bfc4;
+	font-weight:normal;
+	float: left;
+
+
+}
+
+#menu h3{
+	font-family: "Pacifico", cursive;
+	color: #52bfc4;
+	font-size: 48pt;	
+	font-weight:normal;
+	clear: both;
+	text-align: center;
+	margin: 32px;
+
+}
+
+#menu h4 {
+	font-family: "Rokkitt", serif;
+	color: #d4bbe2;
+	font-size: 48pt;
+	text-decoration: none; 
+	font-weight:normal;
+	text-align: center;
+	clear: both;
+	margin: 0 auto;
+}
+
+
+#menu h4 a{
+	font-family: "Rokkitt", serif;
+	color: #d4bbe2;
+	font-size: 48pt;
+	text-decoration: none; 
+	font-weight:normal;
+	text-align: center;
+	clear: both;
+	margin: 0 auto;
 }
