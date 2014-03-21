@@ -19,7 +19,7 @@
 			<li><a href="day.php">our day</a></li>
 			<li><a class="logo" href="index.php"><img src="img/logo.png" alt="Home"/></a></li>
 			<li><a href="guests.php">our guests</a></li>
-			<li><a href="login.php">login</a></li>
+			<li><a href="login2.php">login</a></li>
 		</ul>
 	</nav>
 </header>

@@ -18,7 +18,7 @@ $view->showHeader();
 			<p>love,</p>
 			<p>Callie & Grant</p>
 		</div>
-	<form name="input" action="menu.html" method="get">
+	<form name="input" action="menu.php" method="get">
 		<input type="submit" value="back to login" class="button">
 	</form>
 </div>
