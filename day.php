@@ -11,12 +11,11 @@ $view->showHeader();
 ?>
 
 	<div id="ceremony">
+	<img src="img/sanctuary8.jpg" alt="Photo of St. George Greek Orthodox Church" width="242" height="362"/>
 		<h2>Ceremony & Reception</h2>
-		<div id="church">
-			<p>Oklahoma City</p>
-			<p>St. George Greek Orthodox Church</p>
-		</div>
-		<img src="img/sanctuary8.jpg" alt="Photo of St. George Greek Orthodox Church" width="242" height="362"/>
+			<p class="local">Oklahoma City</p>
+			<p class="local">St. George Greek Orthodox Church</p>
+		
 		<p><strong>Both our ceremony and reception will be held at Saint George.</strong></p>
 
 		<p>The ceremony will be a traditional Greek Orthodox Ceremony.  This means that it will be  40-50 minutes long.  There will be periods of the ceremony where the guests will stand, however, if you’re uncomfortable standing, especially for longer periods of time, it’s completely acceptable for you to stay seated.  Even though the ceremony is traditional, the wedding is not considered to be formal.  Please click the link below to see more information about Greek Orthodox ceremonies.</p>

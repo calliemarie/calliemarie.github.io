@@ -114,7 +114,7 @@ p{
 
 
 #callie, #grant{
-	margin: 50px;
+	margin: 65px;
 	width: 430px;
 	height: 400px;
 	background-color: #FFF;
@@ -122,37 +122,55 @@ p{
 	padding: 25px;
 }
 
+#callie{
+	margin-right: 31px;
+}
+
+#grant{
+	margin-left: 70px;
+}
 #callie img, #grant img{
 	float: left;
 	padding-right: 15px;
 }
 
-#met{
-	clear: both;
+#met img, #proposal img{
 	padding: 15px;
+	margin-top: 10px;
+}
+
+img.right{
+	float: right;
+}
+
+img.left{
+	float: left;
+	padding-left: 0px;
+}
+
+#met{
+	
 }
 
 #met, #proposal{
 	width: 915px;
-	height: 350px;
+	height: 325px;
 	background: white;
-	margin: 50px;
-}
-
-#met img, #proposal img{
-	float: left;
+	margin: 63px;
+	clear: both;
 	padding: 15px;
+
 }
 
-img.second{
-	clear: right;
-}
+
+
 
 /*--------------------------------------------Our Day-----------------------------------------------------*/
 #ceremony{
 	width: 860px;
 	height: 370px;
 	margin: 100px;
+	overflow: auto;
 }
 
 #ceremony p{
@@ -162,6 +180,7 @@ img.second{
 
 #ceremony img{
 	float: right;
+	margin-top: 20px;
 }
 
 #ceremony h2{
@@ -169,7 +188,7 @@ img.second{
 	margin: 0 auto;
 }
 
-#church p{
+p.local{
 	color: #d4bbe2;
 	font-size: 17px;
 	line-height: 18px;
