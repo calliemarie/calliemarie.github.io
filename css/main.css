@@ -381,28 +381,68 @@ img.reg{
 	width: 335px;
     background: #663399;
     font-family: "Oxygen", sans-serif;
-    font-size: 48px;
     color: #60dfe5;
     text-align: center;
-    border-radius: 5px;
+    border-radius: 95px;
 }
 
 /*--------------------------------------------menu-----------------------------------------------------*/
 
-#menu h1{
+#welcome h1{
 	font-family: "Oxygen", sans-serif;
 	font-size: 72pt;
 	font-weight:normal;
 	float: left;
+	text-align: center;
+
 
 }
 
-#menu h2{
+#welcome #top {
+	margin-left: 270px;
+	margin-top: 130px;
+
+}
+
+#welcome #top h1{
+	margin-right: 10px;
+
+
+}
+
+#welcome #top h2{
+	margin-top: -25px;
+
+}
+
+#welcome #bottom {
+	margin-left: 190px;
+	margin-top: 30px;
+
+}
+
+#welcome #bottom h1{
+	margin: 0 auto;
+}
+
+#welcome #bottom h2{
+	margin-top: -75px;
+	margin-right: 0px;
+	margin-left: 0px;
+}
+
+#break{
+	clear: both;
+}
+
+#welcome h2{
 	font-family: "Pacifico", cursive;
 	font-size: 72pt;
 	color: #52bfc4;
 	font-weight:normal;
+	margin:0px;
 	float: left;
+	text-align: center;
 
 
 }
@@ -443,20 +483,56 @@ img.reg{
 
 /*--------------------------------------------bridesmaids/groomsmen---------------------------------*/
 
-#loggedin h2{
+#loggedin h1{
 	font-size: 48pt;
+	margin-bottom: 10px;
+	margin-top: 80px;
 }
 #loggedin h3{
 	font-family: "Rokkitt", serif;
 	font-size: 30pt;
 	color: #d4bbe2;
+	margin-bottom: 0px;
+	margin-top: 25px;	
+	margin-left: 12px;
 }
+
+p.greeting{
+	font-family: "Rokkitt", serif;
+	font-size: 18px;
+	text-align: right;
+	margin-right: 200px;
+	margin-bottom: 1px;
+}
+
+p.sig{
+	font-family: "Pacifico", cursive;
+	font-size: 24px;
+	text-align: right;
+	margin-right: 150px;
+	margin-top: 1px;
+}
+
 #thanks{
 	text-align: center;
+	width: 630px;
+	margin-left: 290px;
+}
+
+input.button{
+	height: 70px;
+	font-size: 32px;
+	width: 250px;
+}
+
+#attire{
+	height: 200px;
 }
 
 #attire, #party, #shower{
 	background: white;
+	margin: 55px;
+	padding: 25px;
 }
 
 #loggedin img{
