@@ -1,13 +1,15 @@
 <?php
 
-require_once "db.php";
-require_once "siteModel.php";
+/*require_once "db.php";*/
+/*require_once "siteModel.php";*/
 require_once "siteView.php";
 
-$model = new siteModel(MY_DSN, MY_USER, MY_PASS);
+
+/*$model = new siteModel(MY_DSN, MY_USER, MY_PASS);*/
 
 $view = new siteView();
 $view->showHeader();
+
 ?>
 
 	<h1 class="cg">Callie & Grant</h1>
@@ -17,3 +19,5 @@ $view->showHeader();
 	<h1>4 . 18 . 2015</h1>
 	<h4 class="okc">oklahoma city</h4>
 	
+<?$view->showFooter();?>
+

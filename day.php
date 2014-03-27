@@ -1,10 +1,11 @@
 <?php
 
-require_once "db.php";
-require_once "siteModel.php";
+/*require_once "db.php";*/
+/*require_once "siteModel.php";*/
 require_once "siteView.php";
 
-$model = new siteModel(MY_DSN, MY_USER, MY_PASS);
+
+/*$model = new siteModel(MY_DSN, MY_USER, MY_PASS);*/
 
 $view = new siteView();
 $view->showHeader();
@@ -17,14 +18,15 @@ $view->showHeader();
 			<p class="local">St. George Greek Orthodox Church</p>
 		
 		<p><strong>Both our ceremony and reception will be held at Saint George.</strong></p>
-
+		<div id="Ceremony Explanation" class="cushycms">
 		<p>The ceremony will be a traditional Greek Orthodox Ceremony.  This means that it will be  40-50 minutes long.  There will be periods of the ceremony where the guests will stand, however, if you’re uncomfortable standing, especially for longer periods of time, it’s completely acceptable for you to stay seated.  Even though the ceremony is traditional, the wedding is not considered to be formal.  Please click the link below to see more information about Greek Orthodox ceremonies.</p>
 		
 		<p>The reception will follow immediately in the Church Hall. Please help us celebrate! We’ll have beer, wine, delicious food and dancing.</p>
-		
-		<a href="#"><p id="goarch">More information about Greek Orthodox Wedding Ceremonies</p></a>
-		
+		</div>
+		<a href="http://www.goarch.org/chapel/liturgical_texts/wedding"><p id="goarch">More information about Greek Orthodox Wedding Ceremonies</p></a>
 	</div>
+	</div>
+	
 	<div id="wedding_party">
 		<h2>Wedding Party</h2>
 		<div id="bridesmaids">
@@ -106,5 +108,6 @@ $view->showHeader();
 			</div>		
 		</div>
 	</div>
+</div>
+</div>
 		
-</body>

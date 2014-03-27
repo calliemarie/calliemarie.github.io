@@ -1,10 +1,11 @@
 <?php
 
-require_once "db.php";
-require_once "siteModel.php";
+/*require_once "db.php";*/
+/*require_once "siteModel.php";*/
 require_once "siteView.php";
 
-$model = new siteModel(MY_DSN, MY_USER, MY_PASS);
+
+/*$model = new siteModel(MY_DSN, MY_USER, MY_PASS);*/
 
 $view = new siteView();
 $view->showHeader();
@@ -32,3 +33,4 @@ $view->showHeader();
 
 </div>
 		
+<?$view->showFooter();?>

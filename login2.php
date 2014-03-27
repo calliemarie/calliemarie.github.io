@@ -1,21 +1,25 @@
 <?php
 
-require_once "db.php";
-require_once "siteModel.php";
+/*require_once "db.php";*/
+/*require_once "siteModel.php";*/
 require_once "siteView.php";
 
-$model = new siteModel(MY_DSN, MY_USER, MY_PASS);
+
+/*$model = new siteModel(MY_DSN, MY_USER, MY_PASS);*/
 
 $view = new siteView();
 $view->showHeader();
 
-$username = "guest"; 
-$password = "password"; 
+error_reporting(E_ALL ^ E_NOTICE);
+$username = "guest";
+$password = "password";
 
 
 if ($_POST['username'] != $username || $_POST['password'] != $password) { 
 
 ?> 
+
+
 <div id="wrapper">
 <p>If you were issued a username and password please login here:</p>
 
@@ -59,6 +63,6 @@ else {
 
 <?php 
 
-} 
-
+}
+$view->showFooter();
 ?>

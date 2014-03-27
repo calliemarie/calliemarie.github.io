@@ -538,4 +538,27 @@ input.button{
 #loggedin img{
 	float: right;
 }
-
+/*------------------------------------Footer----------------------------------*/
+footer{
+	clear: both;
+	font-size: 30px;
+	background: #d4bbe2;
+	margin-top: 30px;
+	margin-bottom: 0px;
+	text-align: right;
+	padding: 10px;
+	color: #663399;
+	overflow: hidden;
+}
+footer h6 a{
+	text-decoration: none;
+}
+footer p {
+	font-size: 10px;
+	line-height: 2px;
+	text-decoration: none;
+}
+footer h6 a:hover { 
+	color: #663399;
+	background: #d4bbe2;
+	} 

@@ -6,5 +6,9 @@ class siteView{
 		include "views/header.inc";
 	}
 	
+	public function showFooter(){
+		include "views/footer.inc";
+	}
+	
 }
 ?>
